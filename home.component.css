@@ -1,0 +1,110 @@
+/* .blue{
+    -webkit--webkit-animation: slide 2s infinite; /* Safari 4.0 - 8.0 
+  -webkit-animation: slide 2s infinite;
+}
+@keyframes slide{
+0%{transform: translateY(0px)}
+
+100%{transform: translateY(30px)}
+} 
+*/
+
+.romegotoSigninleft{
+  height: 500px;
+  width: 100px;
+  background-color: red;
+  }
+  
+  .romeSignuppage{
+    height: 500px;
+    width: 100px;
+    background-color:green;
+  }
+  
+  
+  
+  
+  
+  .romegotoSigninlefttoright{
+    position: absolute;
+    z-index: 2;
+    -webkit-animation: slide 2s infinite; 
+     animation: slide 2s infinite;
+  }
+  
+  
+  @keyframes slide{
+    0%{transform: translateX(0px)}
+    
+    100%{transform: translateX(300px)}
+  } 
+  
+  
+    .romeSignuppagetoleft{
+      position: absolute;
+      z-index: 1;
+      -webkit-animation: left 2s infinite; 
+       animation: left 2s infinite;
+    }
+    
+    
+    @keyframes left{
+      0%{transform: translateX(0px)}
+      
+      100%{transform: translateX(-300px)}
+      } 
+  
+  
+  
+    .romegotoSignintoleft{
+      position: absolute;
+      z-index: 1;
+      -webkit-animation: toleft 2s infinite; 
+       animation: toleft 2s infinite;
+    }
+    
+    
+    @keyframes toleft{
+      0%{transform: translateX(300px)}
+      
+      100%{transform: translateX(0px)}
+      } 
+  
+  
+  
+    .romeSignuppagetoright{
+      position: absolute;
+      z-index: 1;
+      -webkit-animation: toright 2s infinite; 
+       animation: toright 2s infinite;
+    }
+    
+    
+    @keyframes toright{
+      0%{transform: translateX(-300px)}
+      
+      100%{transform: translateX(0px)}
+      } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
